@@ -55,22 +55,6 @@ service cloud.firestore {
 }
 ```
 
-Note: These rules are only recommended for a temporary public party/game setup. Do not use open rules for sensitive or private data.
-
-## GitHub Pages Deployment
-
-GitHub Pages should be set to:
-
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/ (root)`
-
-The main website file must be named exactly:
-
-```text
-index.html
-```
-
 ## Project Purpose
 
 This was built as a quick, fun World Cup prediction and party hub for friends, coworkers, or public groups to share their match predictions and interact during games.
